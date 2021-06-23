@@ -1,14 +1,25 @@
 package test;
 
+import java.util.Scanner;
+
 public class _8 {
 	public static void main(String[] args) {
-		int[] arr = {94,85,95,88,90};
-		int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
-		for (int a : arr) {
-			min = min > a ? a : min;
-			max = max < a ? a : max;
+		String[] course = { "Java", "C++", "HTML5", "컴퓨터구조", "안드로이드" };
+		int[] score = { 95, 88, 76, 62, 55 };
+		Scanner sc = new Scanner(System.in);
+		while (true) {
+			System.out.print("과목 이름 >> ");
+			String cName = sc.next();
+			if (cName.equals("그만"))		break;
+			boolean ck = false;
+			for (int i = 0; i < course.length; i++) {
+				if (cName.equals(course[i])) {
+					ck = true;
+					System.out.println(cName + "의 점수는 " + score[i]);
+					break;
+				}
+			}
+			if(!ck)	System.out.println("없는 과목입니다.");
 		}
-		System.out.println("최소값 : " + min + '\n' + "최대값 : " + max);
-		
 	}
 }

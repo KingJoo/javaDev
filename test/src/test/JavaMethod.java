@@ -1,7 +1,7 @@
 package test;
 
-public class _3 {
+public class JavaMethod {
 	public static void main(String[] args) {
-		//4번
+		
 	}
 }
