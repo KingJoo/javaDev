@@ -34,7 +34,7 @@ public class EmpDAO {
 		}
 		
 	}
-	// 4. 기능 -> 데이터 읽기, 쓰기, 생성, 삭제~(CRUD 중 지금은 읽기만)
+	// 4. 기능 -> 데이터 읽기, 쓰기, 생성, 삭제~(CRUD 중 지금은 읽기만).
 	public Emp[] empListData() {
 		Emp[] emp = new Emp[14];
 		try {
