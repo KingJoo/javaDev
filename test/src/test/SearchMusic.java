@@ -2,7 +2,7 @@ package test;
 
 import java.util.Scanner;
 
-public class Method4 {
+public class SearchMusic {
 	static String[] music= {
 					"1. 치맛바람 (Chi Mat Ba ...",
 					"2. Butter",

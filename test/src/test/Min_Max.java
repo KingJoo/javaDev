@@ -2,7 +2,7 @@ package test;
 
 import java.util.Arrays;
 
-public class Method {
+public class Min_Max {
 	
 	static int[] input() {
 		int[] arr = new int[5];

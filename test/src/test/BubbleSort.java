@@ -2,7 +2,7 @@ package test;
 
 import java.util.Arrays;
 
-public class ArrBubbleSort {
+public class BubbleSort {
 	public static void main(String[] args) {
 		final int N = 20, LIMIT = 26;
 		int[] arr = new int[N];// int[] arr = new int[N];

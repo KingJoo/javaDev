@@ -2,7 +2,7 @@ package test;
 
 import java.util.Scanner;
 
-public class ArrayPrac5 {
+public class SearchName {
 	public static void main(String[] args) {
 		String[] names = {"1","2","3","4","5","6","7","8"};
 		Scanner sc = new Scanner(System.in);

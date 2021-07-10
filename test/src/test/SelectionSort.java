@@ -2,7 +2,7 @@ package test;
 
 import java.util.Arrays;
 
-public class ArrSelectSort {//내림차순(DESC) , 오름차순(ASC)
+public class SelectionSort {//내림차순(DESC) , 오름차순(ASC)
 	public static void main(String[] args) {
 		final int N =5, LIMIT = 101;
 		int[] arr = new int[N];

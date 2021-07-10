@@ -209,7 +209,7 @@ class MusicManager{
 		if(!bCheck)	System.out.println("검색된 결과가 없습니다");
 	}
 }
-public class music0628 {
+public class Music0628 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

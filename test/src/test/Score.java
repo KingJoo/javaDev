@@ -2,7 +2,7 @@ package test;
 
 import java.util.Scanner;
 
-public class Method2_score {
+public class Score {
 	static int[] input() {
 		int[] arr = new int[3];
 		Scanner sc = new Scanner(System.in);

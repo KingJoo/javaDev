@@ -2,7 +2,7 @@ package test;
 
 import java.util.Scanner;
 
-public class _Student {
+public class StudentTest {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int[] kor = new int[3], eng = new int[3], math = new int[3], total = new int[3], rank = {1,1,1};

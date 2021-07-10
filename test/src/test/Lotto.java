@@ -3,7 +3,7 @@ package test;
 import java.util.Arrays;
 
 //1~45 6
-public class ArrayPrac4 {
+public class Lotto {
 	public static void main(String[] args) {
 		final int NUM=6, LIMIT = 46;
 		int[] lotto=new int[NUM];
